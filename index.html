@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>formulário</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <form>
+    <fieldset>
+
+<!--Caixa de " Nome e E-mail"-->
+
+            <legend>Meu formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+            <div><input type="text" name="e-mail" placeholder="Digite o seu e-mail"></div>
+            <div>
+
+<!--Caixa de selecionar a idade-->
+
+                <select name="Lista">
+                    <option disabled selected>Digite sua idade</option>
+                    <option>20</option>
+                    <option>20+</option>
+                    <option>40+</option>
+                </select>
+            </div>
+
+<!--Caixa de respostas da pergunta <h2> em radio(formato redondo de caixinhas de respostas)-->
+
+                <h2>Qual a sua cidade?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="cidade" value=""/><span>Florianópolis</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value=""/><span>São paulo</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value=""/><span>Rio de Janeiro</span>   
+                </div>
+            </div>
+
+<!--Caixa de respostas da pergunta da tag <h2> em checkbox(formato quadrado de respostas)-->
+
+            <h2>Qual a sua comida favorita?</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="comida" value=""/><span>Banana</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="comida" value=""/><span>Maçã</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="comida" value=""/><span>Uva</span>   
+                </div>
+            </div>
+
+<!--Botão de enviar e caixa de observações-->
+
+            <div>
+                <div>
+                    <textarea placeholder="Possui alguma observação?"></textarea>
+                </div>
+                <input type="submit" name="acao" value="Enviar"/>
+            </div>
+    </fieldset>
+   </form>
+</body>
+</html>
