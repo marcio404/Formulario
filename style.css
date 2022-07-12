@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+form fieldset{
+    padding: 20px 40px;
+    border: 3px solid rgb(15,15,15);
+}
+form legend{
+    font-size: 17px;
+    color:black;
+}
+form input[type=text]{
+    font-family: monospace;
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border: 1px solid rgb(15,15,15);
+}
+form input[type=text]:hover{
+    font-family: monospace;
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border: 1px solid rgb(119, 119, 119);
+}
+form input[type=text]:focus form select:focus{
+    outline: 0;
+}
+form select{
+    font-family: monospace;
+    color: rgb(100,100,100);
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid rgb(15,15,15);
+}
+form select:hover{
+    font-family: monospace;
+    color: rgb(100,100,100);
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid rgb(119,119,119);
+}
+/*SELECIONAR APENAS UM PARA MODIFICAR*/
+
+/*
+form select option[disabled]{
+    color: purple;
+}
+
+form select option:nth-of-type(2){
+    color: purple;
+}*/
+
+form h2{
+    margin-top: 20px;
+    color:rgb(20, 20, 20);
+}
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color:rgb(48, 48, 48);
+}
+form textarea{
+    font-family: monospace;
+    border: 1px solid rgb(15,15,15);
+    margin-top: 30px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+form textarea:hover{
+    font-family: monospace;
+    border: 1px solid rgb(119,119,119);
+    margin-top: 30px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+form input[type="submit"]{
+    font-family: monospace;
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgb(15,15,15);
+    color:rgb(15,15,15);
+    background-color: rgb(136, 136, 136);
+}
+form input[type="submit"]:hover{
+    font-family: monospace;
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgb(15,15,15);
+    color:rgb(31, 30, 30);
+    background-color: rgb(167, 167, 167);
+    cursor:pointer;
+}
+form fieldset legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px dotted rgb(15,15,15);
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
